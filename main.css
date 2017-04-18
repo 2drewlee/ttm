@@ -1,3 +1,122 @@
+/*Rocket Around Moon */
+/* Original Colors: 
+Light Teal:#0E9E9F
+Dark Teal: #0A7370
+
+New Dark #1a73b3
+New Light: #1a73b3
+
+
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+html{
+  background-color :#22222A;
+}
+svg {
+  position: absolute;
+  margin:auto;
+  height:100%;
+  width:100%;
+  top:10%;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+  z-index: 0;
+}
+#instructions{
+  position:absolute;
+  width:100%;
+  /*bottom:0; OFF */
+  top:10%;
+  margin: auto;
+  margin-bottom:40px;
+  font-family:'Open Sans', sans-serif;
+  color:#56a3db;
+  font-size:40px;
+  font-weight:800;
+  text-transform: uppercase;
+  text-align : center;
+  user-select: none;
+}
+
+#credits{
+  position:absolute;
+  width:100%;
+  margin: auto;
+  /*bottom:0; OFF */
+  top:16%;
+  margin-bottom:20px;
+  font-family:'Open Sans', sans-serif;
+  color:#b3b3b3;
+  font-weight: 600 !important;
+  font-size:14px;
+  text-transform: uppercase;
+  text-align : center;
+  z-index: 1;
+
+}
+#credits a {
+  color:#b3b3b3;
+
+  font-weight: 600 !important;
+}
+
+#credits a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+/* END Rocket Around Moon */
+
+/* Hero Text and Links */
+
+@media screen and (max-device-width: 640px) {
+    #instructions {
+ 		font-size:48px;
+    }
+
+    #credits {
+    	font-size:30px;
+    }
+}
+
+#supported-by {
+	font-size: 16px;
+	text-transform: none;
+    color:#b3b3b3;	
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.supporters {
+  position:absolute;
+  width:100%;
+  bottom:0;
+  margin: auto;
+  margin-bottom:10px;
+  font-family:'Open Sans', sans-serif;
+  color:#56a3db;
+  font-size:40px;
+  text-transform: uppercase;
+  text-align : center;
+  user-select: none;
+}
+
+.space-after {
+	margin-right:40px;
+}
+
+
+/* END Hero Text and Links */
+
+
+
+
 
 html, body, #container {
 	height: 100%;
