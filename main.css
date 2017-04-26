@@ -32,7 +32,7 @@ svg {
   position:absolute;
   width:100%;
   /*bottom:0; OFF */
-  top:10%;
+  top:7%;
   margin: auto;
   margin-bottom:40px;
   font-family:'Open Sans', sans-serif;
@@ -49,7 +49,7 @@ svg {
   width:100%;
   margin: auto;
   /*bottom:0; OFF */
-  top:16%;
+  top:12%;
   margin-bottom:20px;
   font-family:'Open Sans', sans-serif;
   color:#b3b3b3;
@@ -58,6 +58,7 @@ svg {
   text-transform: uppercase;
   text-align : center;
   z-index: 1;
+  letter-spacing: 2px;
 
 }
 #credits a {
@@ -77,28 +78,36 @@ svg {
 
 @media screen and (max-device-width: 640px) {
     #instructions {
- 		font-size:48px;
+ 		font-size:48px !important;
     }
 
     #credits {
-    	font-size:30px;
+    	font-size:30px !important;
+    }
+
+    .supporter-title {
+      font-size:36px !important;
     }
 }
 
-#supported-by {
-	font-size: 16px;
+
+
+.supporter-title {
+	font-size: 18px;
 	text-transform: none;
-    color:#b3b3b3;	
+  color:#b3b3b3;	
 	font-weight: 300;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
+  letter-spacing: 1px;
 }
 
 .supporters {
   position:absolute;
-  width:100%;
+  width:80%;
+  padding-left:10%;
+  padding-right:10%;
   bottom:0;
   margin: auto;
-  margin-bottom:10px;
   font-family:'Open Sans', sans-serif;
   color:#56a3db;
   font-size:40px;
