@@ -88,6 +88,14 @@ svg {
     .supporter-title {
       font-size:36px !important;
     }
+
+    .donation-title {
+      font-size: 20px !important;
+    }
+
+    .donation-address{
+      font-size: 16px !important;
+    }
 }
 
 
@@ -123,8 +131,44 @@ svg {
 
 /* END Hero Text and Links */
 
+/* Donation Style */
+.donation {
+  position:absolute;
+  width:50%;
+  padding-left:25%;
+  padding-right:25%;
+  bottom:-500px;
+  margin: auto;
+  font-family:'Open Sans', sans-serif;
+  opacity: .75;
+  color:#56a3db;
+  font-size:20px;
+  text-transform: uppercase;
+  text-align : center;
+  user-select: none;
+}
 
+.donation > img {
+  max-width:200px; 
+}
 
+.donation-title {
+  	font-size: 14px;
+	  text-transform: none;
+	  font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
+.donation-address {
+  	font-size: 12px;
+	  text-transform: none;
+    color:#b3b3b3;	
+	  font-weight: 300;
+    padding-bottom: 100px !important;
+    padding-top:15px;
+    letter-spacing: 1px;    
+}
 
 
 html, body, #container {
