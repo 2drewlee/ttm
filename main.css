@@ -157,6 +157,8 @@ svg {
 	  text-transform: none;
 	  font-weight: 300;
     letter-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
 
 }
 
@@ -168,6 +170,18 @@ svg {
     padding-bottom: 100px !important;
     padding-top:15px;
     letter-spacing: 1px;    
+    text-align: center;
+}
+
+.donation-address {
+  	font-size: 12px;
+	  text-transform: none;
+    color:#b3b3b3;	
+	  font-weight: 300;
+    padding-bottom: 100px !important;
+    padding-top:15px;
+    letter-spacing: 1px;    
+    text-align: center;
 }
 
 
