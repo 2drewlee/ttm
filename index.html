@@ -8,14 +8,18 @@
 		<link rel="icon" type="image/png" href="favicon.png" />
 	</head>
 	<body>
+
+
 		<!-- hero text -->
-		<div class="container">
+		<div id="container">
 			<div id="instructions">To The Moon</div>
-			<div id="credits">
-			<p> <a href="https://github.com/tothemoon-org/extension-blocks"  target="blank">Proposal</a> | <a href="https://github.com/bcoin-org/bcoin-extension-blocks" target="blank">Code</a> | <a href="https://github.com/bcoin-org/bcoin-extension-blocks/issues/2" target="blank">Testnet</a> | <a href="http://redsquad.dev.purse.io:8080/" target="blank">Faucet</a></p>
-			</div>	
+				<div id="credits">
+				<p> <a href="https://github.com/tothemoon-org/extension-blocks"  target="blank">Proposal</a> | <a href="https://github.com/bcoin-org/bcoin-extension-blocks" target="blank">Code</a> | <a href="https://github.com/bcoin-org/bcoin-extension-blocks/issues/2" target="blank">Testnet</a> | <a href="http://redsquad.dev.purse.io:8080/" target="blank">Faucet</a></p>
+				</div>	
+				
 		</div>	
 
+		<div class="rocket-hero">
 		<!-- Rocket Around Moon -->
 			<!-- CREDIT:
 			From: Yakudoo
@@ -23,7 +27,7 @@
 			http://epic.net
 			-->
 
-			<svg id="illu" viewBox="0 0 1200 1200" style="padding-bottom:200px;">
+			<svg id="illu" viewBox="0 0 1200 1200">
 			<defs>
 				<g id="star">
 				<rect x="9" y="0" fill="#FFE498" width="2" height="20" />
@@ -163,6 +167,7 @@
 				</g>
 			</g>
 			</svg>
+		</div>	
 		<!-- END Rocket Around Moon -->
 
 		<!-- Supporters -->
@@ -183,30 +188,44 @@
 
 						<a href="https://bitcore.io/"><img src="images/supporters/supporters-14.png" alt="Bitcore"></a>
 
+
+				<br />
+
+
 			</div>
 		<!-- END supporters -->
-		<br />
 
-		<!-- Donation QR & BTC Addresss -->
-		<div class="donation">
+			<!-- Donation QR & BTC Addresss -->
+			<div class="donation">
 						<img class="" src="images/ttmQR.png" alt="QR Code for Bitcoin Address">
-						
-						<p class="donation-title">
-							BTC Donation Address (QR):<br /><span class="donation-address">39PuMEg4prGaEAbi5StNDRhmvaHHKQpbpe</span>
 
-							<br /><br />
+						<div class="donation-info">		
+							<p class="donation-title">BTC Donation Address:<br /></p>
+							<p class="donation-address">39PuMEg4prGaEAbi5StNDRhmvaHHKQpbpe</p>
+						</div>
+								
+			</div>
+			<!-- End Donation -->		
+		
+		<div class="extra-space"></div>
+			
+		<!-- MOON EGG 
+		<img class="easter-egg bottom" src="images/moonbounce.png" />
 
-							ETH Donation Address:<br /><span class="donation-address">0x56cFA645E256374906B5b130630B41d4233ad7C4</span>
-						</p>
-						
-				</div>
-		<!-- End Donation -->
+	    <script src='javascripts/overscroll.js'></script>
+		<script>
+		var overscroll = new Overscroll();
+		window.onload = function() {
+			overscroll.bindElement(document.querySelector('.easter-egg.bottom'), 'bottom', 4);
+		}
+		</script>	-->	
 
 
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
 	<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/264161/Draggable.min.js'></script>
 	<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/264161/ThrowPropsPlugin.min.js'></script>
 
-		<script src="javascripts/rocket-around-moon.js"></script>
+	<script src="javascripts/rocket-around-moon.js"></script>
+	
 	</body>
 </html>
