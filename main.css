@@ -182,21 +182,24 @@ svg {
 
 
 .extra-space {
-  display: block;
-  height: 300px;
+   display: block;
+   height: 150px;
 }
 
 /**/
-.easter-egg {
-	height: 250px;
-	position: fixed;
-	left: 50%;
-	margin-left: -250px;
-  z-index: 2;
+.footer {
+    width:80%;
+  	position: relative;
+    padding-left:10%;
+    padding-right:10%;  
+    margin: auto;
+
 }
 
-.bottom {
-    bottom: -250px;
+.footer > img {
+  position:relative;
+  margin: auto;
+  display:block;
 }
 
 
