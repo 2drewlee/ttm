@@ -186,9 +186,9 @@ svg {
   height: 300px;
 }
 
-/*
+/**/
 .easter-egg {
-	/*height: 250px;
+	height: 250px;
 	position: fixed;
 	left: 50%;
 	margin-left: -250px;
@@ -198,7 +198,7 @@ svg {
 .bottom {
     bottom: -250px;
 }
-*/
+
 
 html, body, {
 	height: 100%;
