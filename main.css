@@ -105,7 +105,18 @@ svg {
       font-size: 16px !important;
     }
 
+    .footer > img {
+      max-width: 100% !important;
+    }
 }
+
+
+@media (min-device-width: 639px) and (max-device-width: 1440px) {
+    .footer > img {
+      max-width: 100% !important;
+    }
+}
+
 
 @media screen and (max-device-height: 450px) {
     .rocket-hero{
